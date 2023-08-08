@@ -1,0 +1,25 @@
+{
+	"root": true,
+	"extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended"],
+	"parser": "@typescript-eslint/parser",
+	"parserOptions": {
+		"project": "./tsconfig.json"
+	},
+	"plugins": ["@typescript-eslint"],
+	"rules": {
+		"@typescript-eslint/strict-boolean-expressions": [
+			2,
+			{
+				/** Unset default (`true`) */
+				"allowString": false,
+				/** Unset default (`true`) */
+				"allowNumber": false,
+				/** Unset default (`true`) */
+				"allowNullableObject": false
+			}
+		],
+		"arrow-body-style": [2, "as-needed"],
+		"no-useless-rename": 2,
+		"object-shorthand": 2
+	}
+}

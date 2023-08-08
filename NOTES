@@ -1,0 +1,20 @@
+other languages. how?
+or rename to mention TS only
+
+inspired by https://github.com/ypresto/vscode-intelli-refactor
+
+TS version to match local workspace or VS Code?
+https://github.com/Saber2pr/vsc-ts-ast-viewer/issues/2
+https://github.com/vuejs/language-tools/issues/1332
+typescript.tsdk
+
+compose select + snippet. appetite: https://stackoverflow.com/questions/33395547/surround-with-method-function-call-in-idea
+
+TS plugin
+https://github.com/microsoft/vscode-typescript-tslint-plugin/blob/main/src/index.ts
+https://github.com/microsoft/vscode-anycode/issues/15
+can register but can't read ast from extension
+
+https://github.com/closedcontour/very-smart-select
+
+https://marketplace.visualstudio.com/items?itemName=cancerberosgx.vscode-typescript-ast-outline
